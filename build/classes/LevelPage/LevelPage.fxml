@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LevelPage.LevelPageController">
+   <children>
+      <ImageView fitHeight="528.0" fitWidth="938.0" layoutX="-28.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@apps.4851.68871528329885281.e03a829d-faa0-4a31-a5d8-785bb8b52288.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Easy" layoutX="191.0" layoutY="247.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Easy" />
+      <Button fx:id="Normal" layoutX="397.0" layoutY="247.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Normal" />
+      <Button fx:id="Hard" layoutX="615.0" layoutY="247.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Hard" />
+   </children>
+</AnchorPane>

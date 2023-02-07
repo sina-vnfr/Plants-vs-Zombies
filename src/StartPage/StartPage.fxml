@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartPage.StartPageController">
+   <children>
+      <ImageView fitHeight="531.0" fitWidth="934.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plants-vs-zombies-home-page.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="LevelPage" fitHeight="84.0" fitWidth="197.0" layoutX="461.0" layoutY="79.0" onMouseClicked="#click" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

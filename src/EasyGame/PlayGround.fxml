@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="938.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EasyGame.PlayGroundController">
+   <children>
+      <ImageView fitHeight="547.0" fitWidth="938.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Background1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="plant1" fitHeight="96.0" fitWidth="73.0" onMouseClicked="#plant1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plant1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="plant2" fitHeight="102.0" fitWidth="81.0" layoutX="-1.0" layoutY="96.0" onMouseClicked="#plant2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plant2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="plant3" fitHeight="96.0" fitWidth="80.0" layoutX="-1.0" layoutY="201.0" onMouseClicked="#plant3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plant3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img11" fitHeight="83.0" fitWidth="66.0" layoutX="232.0" layoutY="159.0" onMouseClicked="#img11" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img12" fitHeight="83.0" fitWidth="66.0" layoutX="301.0" layoutY="159.0" onMouseClicked="#img12" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img13" fitHeight="83.0" fitWidth="66.0" layoutX="373.0" layoutY="159.0" onMouseClicked="#img13" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img14" fitHeight="83.0" fitWidth="66.0" layoutX="448.0" layoutY="159.0" onMouseClicked="#img14" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img15" fitHeight="83.0" fitWidth="66.0" layoutX="514.0" layoutY="159.0" onMouseClicked="#img15" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img16" fitHeight="83.0" fitWidth="66.0" layoutX="587.0" layoutY="159.0" onMouseClicked="#img16" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img17" fitHeight="83.0" fitWidth="66.0" layoutX="661.0" layoutY="159.0" onMouseClicked="#img17" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img18" fitHeight="83.0" fitWidth="66.0" layoutX="727.0" layoutY="159.0" onMouseClicked="#img18" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img19" fitHeight="83.0" fitWidth="66.0" layoutX="806.0" layoutY="159.0" onMouseClicked="#img19" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img29" fitHeight="83.0" fitWidth="66.0" layoutX="810.0" layoutY="249.0" onMouseClicked="#img29" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img28" fitHeight="83.0" fitWidth="66.0" layoutX="727.0" layoutY="249.0" onMouseClicked="#img28" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img27" fitHeight="83.0" fitWidth="66.0" layoutX="661.0" layoutY="249.0" onMouseClicked="#img27" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img26" fitHeight="83.0" fitWidth="66.0" layoutX="587.0" layoutY="249.0" onMouseClicked="#img26" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img25" fitHeight="83.0" fitWidth="66.0" layoutX="521.0" layoutY="249.0" onMouseClicked="#img25" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img24" fitHeight="83.0" fitWidth="66.0" layoutX="449.0" layoutY="249.0" onMouseClicked="#img24" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img23" fitHeight="83.0" fitWidth="66.0" layoutX="367.0" layoutY="249.0" onMouseClicked="#img23" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img22" fitHeight="83.0" fitWidth="66.0" layoutX="301.0" layoutY="249.0" onMouseClicked="#img22" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img21" fitHeight="83.0" fitWidth="66.0" layoutX="232.0" layoutY="249.0" onMouseClicked="#img21" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img31" fitHeight="83.0" fitWidth="66.0" layoutX="228.0" layoutY="337.0" onMouseClicked="#img31" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img32" fitHeight="83.0" fitWidth="66.0" layoutX="301.0" layoutY="337.0" onMouseClicked="#img32" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img33" fitHeight="83.0" fitWidth="66.0" layoutX="373.0" layoutY="337.0" onMouseClicked="#img33" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img34" fitHeight="83.0" fitWidth="66.0" layoutX="448.0" layoutY="337.0" onMouseClicked="#img34" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img35" fitHeight="83.0" fitWidth="66.0" layoutX="521.0" layoutY="337.0" onMouseClicked="#img35" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img36" fitHeight="83.0" fitWidth="66.0" layoutX="595.0" layoutY="337.0" onMouseClicked="#img36" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img37" fitHeight="83.0" fitWidth="66.0" layoutX="661.0" layoutY="337.0" onMouseClicked="#img37" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img38" fitHeight="83.0" fitWidth="66.0" layoutX="727.0" layoutY="337.0" onMouseClicked="#img38" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img39" fitHeight="83.0" fitWidth="66.0" layoutX="806.0" layoutY="337.0" onMouseClicked="#img39" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="348.0" layoutY="-2.0" text="score:" textFill="#0f00cf">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="scorelbl" layoutX="456.0" layoutY="5.0" prefHeight="41.0" prefWidth="119.0" />
+      <Line endX="378.0" layoutX="456.0" layoutY="113.0" startX="-194.0" strokeWidth="6.0" />
+      <Line endX="378.0" layoutX="462.0" layoutY="470.0" startX="-194.0" strokeWidth="6.0" />
+      <ImageView fx:id="plant31" fitHeight="91.0" fitWidth="71.0" layoutX="-1.0" layoutY="297.0" onMouseClicked="#plant3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Sunny.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="sunlbl" layoutX="14.0" layoutY="356.0" prefHeight="23.0" prefWidth="43.0" />
+      <Label fx:id="errormoney" layoutX="334.0" layoutY="479.0" prefHeight="31.0" prefWidth="319.0" />
+   </children>
+</Pane>
